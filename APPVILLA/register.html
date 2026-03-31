@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body class="reg-form">
+    <form class="reg-cl  rounded">
+        <h1 class="text-center ">Registration Form</h1>
+        Roll no: <input class="form-control shadow" type="text"><br>
+        Student name: <input class="form-control shadow" type="text" placeholder="Enter Name"><br>
+        Father name: <input class="form-control shadow" type="text"><br>
+        Date of birth: <input class="form-control shadow" type="date"><br>
+        Mobile no: <input class="form-control shadow" type="text" placeholder="0300-0000000"><br>
+        <div class="mb-3 row">
+           
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <input type="email" class="form-control shadow" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <br>
+            <div class="row g-3 align-items-center">
+                <div class="col-auto">
+                    <label for="inputPassword6" class="col-form-label">Password</label>
+                </div>
+                <div class="col-auto">
+                    <input type="password" id="inputPassword6" class="form-control shadow"
+                        aria-describedby="passwordHelpInline">
+                </div>
+            </div><br>
+            <Div class="mt-4">Gender: Male: <input  type="radio" value="male" name="gender">
+            Female: <input type="radio" value="female" name="gender"></Div><br>
+           <div class="mt-4">Department:
+            IT <input type="checkbox" value="IT" name="IT">
+            CSE <input type="checkbox" value="CSE" name="CSE">
+            ECE <input type="checkbox" value="ECE" name="ECE">
+            Civil <input type="checkbox" value="Civil" name="Civil"></div> <br>
+
+           <div> Course:
+            <select class="mt-4 text-center">
+                <option value="select">----Select Current Course----</option>
+                <option>website development</option>
+                <option>graphic designing</option>
+                <option>application development</option>
+            </select></div><br>
+           <div class="mt-4"> Student photo: <input type="file"></div><br>
+            <div class="mt-4  ">City: <input type="text"></div>
+           <div class="mt-4"> Address:
+            <textarea rows="2" cols="50"></textarea></div><br>
+            <a class="reg-btn" href="#">Register</a>
+    </form>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

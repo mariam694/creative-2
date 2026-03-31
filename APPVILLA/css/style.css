@@ -1,0 +1,184 @@
+.nav-btn {
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 35px;
+}
+
+.nav-btn:hover {
+    background-color: white;
+    color: #ff6b81;
+}
+
+#header {
+    background-color: #ff6b81;
+    height: 100vh;
+}
+
+.logoimg {
+    width: 135px;
+}
+
+.nav-link {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.nav-bar {
+    gap: 30px;
+}
+
+.header-left h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.app-btn {
+    border: 1px solid white;
+    border-radius: 5px;
+    color: #ff6b81;
+    background-color: white;
+    padding: 10px 35px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.app-btn:hover {
+    color: white;
+    background-color: black;
+    border: white;
+}
+
+#features {
+    padding: 100px 0;
+    background-color: #f1f1f1;
+}
+
+.sec-heading {
+    color: #ff6b81;
+}
+
+.feature-icon {
+    width: 65px;
+    height: 65px;
+    background-color: #ff6b81;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#state {
+    padding: 100px 0;
+    color: white;
+    background-color: #ff6b81;
+}
+
+#Pricing {
+    padding: 100px 0;
+    background-color: #f1f1f1;
+}
+
+.price-btn {
+    display: block;
+    text-align: center;
+    background-color: rgb(15, 15, 15);
+    color: white;
+    text-decoration: none;
+    padding: 8px 0;
+    border-radius: 5px;
+    margin: 15px 0;
+}
+
+.featurelist i {
+    margin-right: 8px;
+    color: #ff6b81;
+}
+
+.price-btn:hover {
+    background-color: #ff6b81;
+}
+
+.featurelist {
+    margin-bottom: 10px;
+}
+
+#last-sec {
+    background-color: #ff6b81;
+    padding: 100px 0;
+}
+
+#foot-sec {
+    padding: 100px 0px;
+    background-color: black;
+}
+
+.footer-list a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-list a:hover {
+    color: #ff6b81;
+}
+
+.footer-list li {
+    margin-bottom: 8px;
+}
+
+.login-form {
+    width: 500px;
+    background-color: #ff6b8175;
+    padding: 30px;
+}
+
+.login-page {
+    height: 100vh;
+}
+
+.form-box,
+.login-page .container {
+    height: 100%;
+}
+
+.btn {
+    border-radius: 30px;
+}
+
+.reg-form {
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: rgb(206, 206, 206);
+}
+
+.reg-cl {
+    width: 600px;
+    background-color: #ffffff;
+    padding: 30px;
+    border: 1px solid beige;
+
+}
+
+.reg-btn {
+    display: block;
+    text-align: center;
+    background-color: rgb(66, 64, 64);
+    color: white;
+    text-decoration: none;
+    padding: 8px 0;
+    border-radius: 5px;
+    margin: 15px 0;
+
+}
+.reg-btn:hover{
+    background-color: black;
+}
